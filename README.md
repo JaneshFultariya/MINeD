@@ -5,10 +5,10 @@
 <h2>Tools used:</h2>
   
   
-  Android Studio (Java)
+  - Android Studio (Java)
   
   
-  Adobe XD (for prototyping)
+  - Adobe XD (for prototyping)
 
 <h2>Frameworks/Libraries used:</h2>
   
