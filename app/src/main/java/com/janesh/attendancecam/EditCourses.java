@@ -320,7 +320,7 @@ public class EditCourses extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(final String deletedCourseId) {
-            if(!deletedCourseId.equals("")){
+            if(!"".equals(deletedCourseId)){
                 Toast.makeText(EditCourses.this, "Course successfully deleted", Toast.LENGTH_LONG).show();
 
                 AppDatabase db = AppDatabase.getAppDatabase(getApplicationContext());
